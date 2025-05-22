@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Mysem09_1;
+using MySem09_1;
+using Calculadora;
 
 namespace Sem09_13126
 {
@@ -16,6 +17,9 @@ namespace Sem09_13126
             int resultado = 0;
             resultado = 10;
             Console.WriteLine("LA resta es: "+ resultado);
+
+            Calculadora c = new Calculadora();
+                c.Multiplicar(ref resultado);
 
             Console.ReadKey();
 
