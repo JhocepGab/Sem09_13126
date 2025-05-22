@@ -26,21 +26,5 @@ namespace Mysem09_1
             Console.WriteLine("la resta es: ");
                 resultado = n1 - n2;
         }
-        public void multiplicar()
-        {
-            Console.WriteLine("Ingrese un numero: ");
-            int n1=int.Parse(Console.ReadLine());
-            Console.WriteLine("Ingrese un numero: ");
-            int n2=int.Parse(Console.ReadLine());
-            Console.WriteLine("La multiplicacion es: " + (n1 *  n2));
-        }
-        public void Dividir()
-        {
-            Console.WriteLine("Ingrese un numero");
-            int n1 = int.Parse(Console.ReadLine());
-            Console.WriteLine("Ingrese el segundo numero");
-            int n2 = int.Parse(Console.ReadLine());
-            Console.WriteLine("La divicion es: " + (n1 / n2));
-        }
     }
 }
