@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Mysem09_1;
 
 namespace Sem09_13126
 {
@@ -10,23 +11,14 @@ namespace Sem09_13126
     {
         static void Main(string[] args)
         {
-            int opcion;
-            while (true)
-            {
-                Console.WriteLine("Menú:");
-                Console.WriteLine("1. Sumar");
-                Console.WriteLine("2. Restar");
-                Console.WriteLine("3. Multiplicar");
-                Console.WriteLine("4. Dividir");
-                Console.WriteLine("0. Salir");
-                Console.Write("Elige una opción: ");
-                opcion = int.Parse(Console.ReadLine());
+            Class1 xd = new class1();
+            xd.sumar();
+            int resultado = 0;
+            resultado = 10;
+            Console.WriteLine("LA resta es: "+ resultado);
 
-                if (opcion == 0)
-                {
-                    break;
-                }
-            }
+            Console.ReadKey();
+
         }
     }
 }
