@@ -11,10 +11,11 @@ namespace Sem09_13126
     {
         static void Main(string[] args)
         {
-            Class1 xd = new class1();
-            xd.sumar();
+            Class1 xd = new Class1();
+            xd.Suma();
             int resultado = 0;
             resultado = 10;
+            xd.Resta(ref resultado);
             Console.WriteLine("LA resta es: "+ resultado);
 
             Calculadora c = new Calculadora();

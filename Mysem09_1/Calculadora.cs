@@ -8,7 +8,7 @@ namespace Mysem09_1
 {
     public class Calculadora
     {
-        public void Multiplicar(out ref resultado)
+        public void Multiplicar(out int resultado)
         {
             Console.WriteLine("Ingrese un numero: ");
             int n1 = int.Parse(Console.ReadLine());
